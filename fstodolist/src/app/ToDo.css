@@ -1,0 +1,73 @@
+.back_ground {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(31, 8, 52);
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  padding: 150px;
+}
+
+.Card {
+  background-color: rgb(83, 48, 116);
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 5px;
+  align-items: center;
+  padding: 15px;
+}
+
+.list {
+  background-color: rgb(104, 84, 118);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  border-radius: 7px;
+  margin: 15px;
+}
+
+.cell {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 2.5px;
+}
+
+.todo {
+  background-color: rgb(44, 20, 65);
+  text-align: center;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2.5px;
+  width: 200px;
+}
+
+.btn {
+  background-color: rgb(31, 8, 52);
+  width: 100px;
+  padding: 5px;
+  margin: 2.5px;
+  border-radius: 7px;
+  height: 40px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  background-color: rgb(104, 84, 118);
+  display: flex;
+
+  flex-direction: column;
+  border-radius: 7px;
+  width: 350px;
+  margin: 5px;
+  text-align: center;
+  padding-left: 10px;
+}
